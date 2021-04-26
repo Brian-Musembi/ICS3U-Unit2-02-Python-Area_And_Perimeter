@@ -8,10 +8,12 @@ import math
 
 
 def main():
-    radius_of_circle = int(input("Enter the radius of the circle: "))
-    print("Its area is: {}" .format(math.pi * radius_of_circle ** 2))
+    length = int(input("Enter the length of the rectangle: "))
+    width = int(input("Enter the width of the rectangle: "))
     print("")
-    print("Its perimeter is: {}" .format(2 * (math.pi * radius_of_circle)))
+    print("Area is: {} mm²" .format(length * width))
+    print("")
+    print("Perimeter is: {} mm" .format(2 * (length + width)))
     print("")
     print("Done")
 
